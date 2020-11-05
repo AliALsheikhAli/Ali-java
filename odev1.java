@@ -10,7 +10,7 @@ class MyUtils{
      public static float ucgenAlan(float a,float b,float c){
          flaot a = 0;
          float s = (a + b +c )/2;
-         return Math.sqrt(s*((s-a)(s-b)(s-c)));
+         return Math.sqrt(s*((s-a)*(s-b)*(s-c)));
      }
      private static int Random_NextInt(int min,int max){
         Random rnd=new Random();
@@ -28,7 +28,7 @@ class MyUtils{
     }
     private static double f1(x){
         
-        return 3*x - 2 * Math.exp(x) + Math.sqrt(x);
+        return 3*x - 2 * Math.exp(x) + Math.sqrt(dox);
     }
     
     private static double f2(x){
